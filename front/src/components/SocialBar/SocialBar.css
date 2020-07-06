@@ -1,0 +1,11 @@
+#socialbar li {
+  background-color: inherit;
+}
+
+.fab {
+  color: var(--info);
+}
+
+.fab:hover {
+  color: var(--dark);
+}

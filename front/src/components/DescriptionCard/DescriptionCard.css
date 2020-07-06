@@ -1,0 +1,10 @@
+#profile-photo {
+  box-shadow: 0 8px 16px 0 var(--dark);
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+div.card {
+  background-color: inherit;
+  color: inherit;
+}

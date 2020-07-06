@@ -1,0 +1,11 @@
+.app-main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0;
+  height: auto;
+}
+
+#main-view {
+  height: calc(100vh - 55px);
+}

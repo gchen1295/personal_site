@@ -1,0 +1,101 @@
+/*
+  Media Queries
+*/
+@media screen and (max-width: 1200px) {
+  #intro-container h1 {
+    font-size: 1.75em;
+  }
+}
+
+
+/*
+  Intro text
+*/
+
+
+h1#typed-intro {
+  border-right: 0.01em solid transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation:
+    blink-cursor .4s step-end 0s 1 forwards,
+    typing 2s steps(100, end);
+}
+
+h1#typed-intro2 {
+  width: 0;
+  border-right: 0.01em solid transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation-delay: 5s;
+  animation:
+    blink-cursor .3s step-end 1s 2 forwards,
+    typing 2s steps(100, end) 1s forwards;
+}
+
+@keyframes blink-cursor {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: var(--info)
+  }
+}
+
+@keyframes typing {
+
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+/*
+  Hand wave animation
+*/
+span#wave {
+  animation-name: wave-animation;
+  animation-duration: 3.5s;
+  animation-delay: 2.5s;
+  animation-iteration-count: 1;
+  transform-origin: 75% 75%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0.0deg)
+  }
+
+  10% {
+    transform: rotate(-10.0deg)
+  }
+
+  20% {
+    transform: rotate(12.0deg)
+  }
+
+  30% {
+    transform: rotate(-10.0deg)
+  }
+
+  40% {
+    transform: rotate(9.0deg)
+  }
+
+  50% {
+    transform: rotate(0.0deg)
+  }
+
+  100% {
+    transform: rotate(0.0deg)
+  }
+}
