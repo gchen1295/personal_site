@@ -1,3 +1,15 @@
+:root {
+  --primary: '#4B6AB8';
+  --info: '#252832';
+  --success: '#4c9a6f';
+  --warning: '#c98a37';
+  --danger: '#f44336';
+  --light: '#E0DFE2';
+  --dark: '#71819A';
+  --light-secondary: '#82B0D3';
+  --dark-secondary: '#282832';
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +17,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-top: 55px;
 }
 
 code {
