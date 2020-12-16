@@ -15,6 +15,8 @@ export default function DescriptionCard() {
               paddingLeft: '10px'
             }}
           >
+            My name is Gary the snail. I am 24 and 3/4. 
+            I am greattttt at coding.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -27,7 +29,8 @@ export default function DescriptionCard() {
         </div>
         <div className='col-md-5 d-flex justify-content-center flex-column p-4 align-items-center order-1 order-lg-2'>
           <img
-            src='https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/18921747_10207333749700800_3528477509547686550_n.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_ohc=RewZ0MzPTNcAX8nSUBT&_nc_ht=scontent-lga3-1.xx&oh=5a26d4a8bca1035a9d20f7b1622e77e2&oe=5F0F800A'
+            src='https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/18921747_10207333749700800_3528477509547686550_n.jpg?_nc_cat=106&ccb=2&_nc_sid=09cbfe&_nc_ohc=UAXAH3I4KFUAX8rTElG&_nc_ht=scontent-lga3-2.xx&oh=51bd2f89273a404707fcedaba0c6c465&oe=5FF8D98A
+            '
             alt='Profile'
             className='card-img-top'
             id='profile-photo'
